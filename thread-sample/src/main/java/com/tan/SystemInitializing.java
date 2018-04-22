@@ -1,4 +1,4 @@
-package com.baibei.accountservice;
+package com.tan;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -28,7 +28,7 @@ public class SystemInitializing implements InitializingBean {
             logger.info("Start schedulerMasterCheck ...");
         } catch (Exception e) {
             e.printStackTrace();
-            log.info("error:{}", e.getMessage());
+            logger.info("error:{}", e.getMessage());
         }
         
         
