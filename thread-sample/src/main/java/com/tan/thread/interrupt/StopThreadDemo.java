@@ -1,6 +1,7 @@
 package com.tan.thread.interrupt;
 
 public class StopThreadDemo {
+    @SuppressWarnings("deprecation")
     public static void main(String[] args) {
         StopThread thread=new StopThread();
         thread.start();
